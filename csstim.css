@@ -1,0 +1,29 @@
+.content {
+	text-align: center;
+	background-color: gray;
+	color: ivory;
+	width: 600px;
+	margin: auto;
+
+}
+.header {
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	color:ivory ;
+}
+
+body{
+	background-color: gainsboro;
+}
+
+a {
+	color: lightblue;
+
+	text-decoration: none;
+}
+
+button {
+	color: green;
+	transform: translateY(3px);
+}

@@ -2,26 +2,30 @@
 <html>
 <head>
 	<title>Form Pendaftaran Lomba Basket </title>
+	<link rel="stylesheet" type="text/css" href="csstim.css">
 	
 </head>
 <body>
-	<h3><font color="red">basketball Competition !!</h3>
-<form  name="form1" action="form basketball.php" >
+	<div class="header">
+	<h3>Basketball Competition !!</h3>
+		</div>
+		<div class="content">
+<form  name="form1" action="datatim.php" method="post" >
 	
-	<font color="blue" style="animation-iteration-count: all;">
+	
 
-	Nama Tim               : <input type="text" name="tim" maxlength="30"  ><br>
+	Nama Tim               : <input type="text" name="tim" id="tim" maxlength="30"  ><br>
 
-	Sekolah/Universitas    : <input type="text" name="Sekolah" maxlength="50"><br>
+	Sekolah/Universitas    : <input type="text" name="Sekolah" id="Sekolah" maxlength="50"><br>
 
-	Alamat                 : <input type="text" name="Alamat" maxlength="100" ><br>
+	Alamat                 : <input type="text" name="Alamat" id="Alamat" maxlength="100" ><br>
 
-	Nama Penanggung Jawab  : <input type="text" name="Jawab" maxlength="20"><br> 
+	Nama Penanggung Jawab  : <input type="text" name="Jawab" id="Jawab" maxlength="20"><br> 
 
-	NO HP Penanggung jawab : <input type="text" name="no HP" maxlength="12"><br>
+	NO HP Penanggung jawab : <input type="text" name="noHP" id="noHP" maxlength="12"><br>
 
 
-	Jumlah Pemain Tim Anda  : <input type="number" name="pemain" maxlength="12" ><br>
+	Jumlah Pemain Tim Anda  : <input type="number" name="pemain" id="pemain" maxlength="12" ><br>
 
 	Perlombaan yang ingin diikuti    : <select name="perlombaan" id="lomba">
 		<option value="Full Team Putra">Full Team Putra</option>
@@ -37,7 +41,8 @@
 	
 	<input type="submit" name="nm" id="nm" value="submit">
 	<input type="reset" name="rst" id="rst" value="reset">
-	</font>
+	
+	</div>
 </form>
 </body>
 </html>
