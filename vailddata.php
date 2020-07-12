@@ -54,6 +54,7 @@ if($pemain == ""){
 }
 
 
+
 $dana = $_POST['dana'];
  
 if($dana == ""){
@@ -61,9 +62,35 @@ if($dana == ""){
 }else{
 	echo "</br>Tim anda memiliki cukup dana? ". $dana;
 }
-?>
-</div>
 
+
+
+
+  $tim = $_POST['tim'];
+  $Sekolah = $_POST['Sekolah'];
+  $Alamat = $_POST['Alamat'];
+  $Jawab = $_POST['Jawab'];
+  $noHP = $_POST['noHP'];
+  $pemain = $_POST['pemain'];
+  $lomba = $_POST['lomba'];
+  $dana = $_POST['dana'];
+  $prestasi =$_POST['prestasi'];
+
+  // Format data yang akandiparsing
+  $data = "\n $tim|$Sekolah|$Alamat|$Jawab|$noHP|$pemain|$lomba|$dana|$prestasi";
+
+  // Buka file mhs.txt, kemudian tuliskan isi variabel di atas kedalam mhs.txt
+  $fh = fopen("daftartim.txt", "a");
+  fwrite($fh, $data);
+
+  // Tutup file data.txt
+  fclose($fh);
+
+?>
+<br>
+<a href="datatim.php">Lihat data tim terdaftar</a>
+
+</div>
 
 </body>
 </html>

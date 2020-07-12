@@ -1,11 +1,19 @@
 .content {
 	text-align: center;
-	background-color: gray;
-	color: ivory;
+	background-color: ivory;
+	color: blue;
 	width: 600px;
 	margin: auto;
+	padding: 10px;
+	
 
+.container {
+	background-image: url("giannis.JPG");
+	
+	padding: 10px;
+	margin: auto;
 }
+
 .header {
 	text-align: center;
 	font-family: arial;
@@ -14,11 +22,11 @@
 }
 
 body{
-	background-color: gainsboro;
+	
 }
 
 a {
-	color: lightblue;
+	color:lightblue;
 
 	text-decoration: none;
 }
@@ -26,4 +34,9 @@ a {
 button {
 	color: green;
 	transform: translateY(3px);
+}
+
+h2 {
+	color: ivory;
+	text-align: center;
 }

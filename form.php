@@ -7,9 +7,6 @@
 </head>
 <body>
 
-	
-
-
 	<div class="header">
 	<h3>Basketball Competition !!</h3>
 		</div>
@@ -41,7 +38,7 @@
 	Tim Anda memiliki pendanaan yang cukup : <input type="radio" name="dana" id="dana" value="ya">YA
 	<input type="radio" name="dana" id="dana" value="tidak">Tidak<br>
 
-	Prestasi yg pernah diraih : <textarea name="Prestasi" id="prestasi" rows="4" cols="50"></textarea><br>
+	Prestasi yg pernah diraih : <textarea name="prestasi" id="prestasi" rows="4" cols="50"></textarea><br>
 	
 	<input type="submit" name="nm" id="nm" value="submit">
 	<input type="reset" name="rst" id="rst" value="reset">
@@ -80,12 +77,7 @@
 			echo "<h4 style='color:red'>Jumlah pemain Belum Di Masukkan !</h4>";
 		}
 	}
-	if(isset($_GET['lomba'])){
-		if($_GET['lomba'] == "kosong"){
-			echo "<h4 style='color:red'>Pilih lomba yang anda ikuti !</h4>";
-		}
-	}		
-
+	
 	if(isset($_GET['dana'])){
 		if($_GET['dana'] == "kosong"){
 			echo "<h4 style='color:red'>Kesanggupan dana Belum Di Masukkan !</h4>";

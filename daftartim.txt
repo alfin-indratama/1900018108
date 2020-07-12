@@ -1,17 +1,4 @@
-FNB|SMAN 3|juanda samarinda|alfin|085227640037|12||
-FNB|SMAN 3|juanda samarinda|alfin|085227640037|12||
-FNB|SMAN 3|juanda samarinda|alfin|085227640037|12||
-2TC|smp10|sungai kunjang|comet|08123456789|12||
-2TC|smp10|sungai kunjang|comet|08123456789|12||
-2TC|smp10|sungai kunjang|comet|08123456789|12||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
+ FNB|SMAN 3|juanda samarinda|alfin|085227640037|12||ya|nba
+ FNB|SMAN 3|juanda samarinda|alfin|085227640037|12||ya|nba
+buckss|wisconsin|oracle state|Mike|087238232922|12||ya|NBA CHAMP!!!
+ 2TC|SMAN 3|juanda samarinda|comet|085227640037|12||ya|EBC CUP|||||||
