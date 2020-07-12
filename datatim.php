@@ -13,7 +13,7 @@
 		<td><button><a href="form.php">Halaman awal Pendaftaran Tim</a></button><br>
 		</td>
 		<td>
-			<button><a href="lihattim.php">Lihat Daftar-daftar Tim</a></button><br>
+			<button><a href="table.php">Lihat Daftar-daftar Tim</a></button><br>
 		</td>
 		</div>
 
